@@ -3,6 +3,7 @@
 ### `Table of contents`
 - [Installing Docker](#Installing-Docker)
 - [Docker: Basic commands](#Docker-Basic-commands)
+- [Test the NodeJS application to run locally](#Using-the-NodeJS-application-to-run-locally-on-my-machine)
 
 ### `Installing Docker`
 

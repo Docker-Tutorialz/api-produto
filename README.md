@@ -2,12 +2,7 @@
 
 ### `Table of contents`
 - [Installing Docker](#Installing-Docker)
-- [How does it work?](#how-does-it-work)
-- [Setup AWS credentials](#setup-aws-credentials)
-- [Create a AWS Key pairs](#create-a-AWS-Key-pairs)
-- [Create the Terraform files](#create-the-terraform-files)
-- [Terraform CLI Usage](#terraform-cli-usage)
-- [Contributing](#contributing)
+- [Docker: Basic commands](#Docker-Basic-commands)
 
 ### `Installing Docker`
 

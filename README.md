@@ -1,7 +1,7 @@
 ## `Docker: Do código ao Docker Compose`
 
-## Table of contents
-- [Installing Docker](### `Installing Docker`)
+## `Table of contents`
+- [Installing Docker](#Installing-Docker)
 - [How does it work?](#how-does-it-work)
 - [Setup AWS credentials](#setup-aws-credentials)
 - [Create a AWS Key pairs](#create-a-AWS-Key-pairs)

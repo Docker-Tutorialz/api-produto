@@ -4,6 +4,7 @@
 - [Installing Docker](#Installing-Docker)
 - [Docker: Basic commands](#Docker-Basic-commands)
 - [Test the NodeJS application to run locally](#Using-the-NodeJS-application-to-run-locally-on-my-machine)
+- [Run NodeJS application from container](U#sing-the-NodeJS-application-to-run-on-container)
 
 ### `Installing Docker`
 

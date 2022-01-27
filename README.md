@@ -114,16 +114,23 @@ root@804841b67ea6:/#
 ```
 
 1.5. Creating a MongoDB on Docker container:
-- before we need check the Dockerhub about [MongoDB](https://hub.docker.com/_/mongo)
+- before we need check the Dockerhub about [MongoDB](https://hub.docker.com/_/mongo):
 
 ```
 elliot01 ~]# docker container run -d -e MONGO_INITDB_ROOT_USERNAME=mongouser -e MONGO_INITDB_ROOT_PASSWORD=mongopwd mongo
 2833a64a61b6637c77e4df70cdf2442ccd56b19dc1d63037307cb69497b2178a
 ```
 
-1.6. Need access this container, now we can do:
+1.6. Now we need access this container, you can do this:
 
 - port-bind (connection port with container, we need create a port-bind, get a local port of my machine and link with container port)
+- Options: 
+```
+-d - execute container in background 
+-p - port-bind
+-e - environment variables 
+```
+- Running the command again using more options:
 
 ```
 elliot01 ~]# docker container run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongouser -e MONGO_INITDB_ROOT_PASSWORD=mongopwd mongo

@@ -1,5 +1,14 @@
 ## `Docker: Do código ao Docker Compose`
 
+## Table of contents
+- [Installing Docker](### `Installing Docker`)
+- [How does it work?](#how-does-it-work)
+- [Setup AWS credentials](#setup-aws-credentials)
+- [Create a AWS Key pairs](#create-a-AWS-Key-pairs)
+- [Create the Terraform files](#create-the-terraform-files)
+- [Terraform CLI Usage](#terraform-cli-usage)
+- [Contributing](#contributing)
+
 ### `Installing Docker`
 
 1. Before you get started, please make sure you have Docker installed on your machine:

@@ -215,6 +215,8 @@ Servidor rodando na porta 8080
 
 - To access the application, make sure you have Docker IP and putin your browser `http://192.168.1.128:8080/api-docs/`
 
+![nodejsapp](images/nodejs.png)
+
 ### `Using the NodeJS application to run on container`
 
 1.1. Now we need create a image to run our container:

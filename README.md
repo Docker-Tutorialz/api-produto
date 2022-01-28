@@ -220,13 +220,12 @@ Servidor rodando na porta 8080
 
 ### `Using the NodeJS application to run on container`
 
-1.1. Now we need create a image to run our container:
+1.1. Some concept before to start:
 
 - Container image: basically a template for our container
--  
-
-```
-```
+-  How to buid your Docker image? There are two ways to buid:
+a. Docker commit (image created via container - wrong way to create - several disvantages)
+b. Dockerfile (file to add a image following basic steps, seems a cake recipe)
 
 
 

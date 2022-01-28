@@ -224,8 +224,9 @@ Servidor rodando na porta 8080
 
 - Container image: basically a template for our container
 -  How to buid your Docker image? There are two ways to buid:
+```
 a. Docker commit (image created via container - wrong way to create - several disvantages)
 b. Dockerfile (file to add a image following basic steps, seems a cake recipe)
-
+```
 
 

@@ -88,7 +88,7 @@ ea3d6cba32ce   nginx:latest    "/docker-entrypoint.…"   2 months ago    Exited
 c00037dfdb53   nginx:latest    "/docker-entrypoint.…"   2 months ago    Exited (0) 2 months ago              amaury.1.vqdl6rxuu0x30o6jchlh66iqt
 ```
 
-1.2. Set a name for my Docker container:
+1.2. Set a name for my Docker container: 
 
 ```
  docker-tutorialz]# docker container run --name amaury hello-world
@@ -221,6 +221,9 @@ Servidor rodando na porta 8080
 ### `Using the NodeJS application to run on container`
 
 1.1. Now we need create a image to run our container:
+
+- Container image: basically a template for our container
+-  
 
 ```
 ```

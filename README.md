@@ -220,7 +220,7 @@ Servidor rodando na porta 8080
 
 ### `Using the NodeJS application to run on container`
 
-1.1. Some concept before to start:
+1.1. Now we will work using `Docker images` befores some concepts to start:
 
 - Container image: basically a template for our container
 -  How to buid your Docker image? There are two ways to buid:
@@ -228,5 +228,35 @@ Servidor rodando na porta 8080
 a. Docker commit (image created via container - wrong way to create - several disvantages)
 b. Dockerfile (file to add a image following basic steps, seems a cake recipe)
 ```
+
+1.2. Let's create our first `Dockerfile` using a `Node image` from Dockerhub:
+
+- First of all, check on Dockerhub the [node image](https://hub.docker.com/_/node).
+
+1.3. Let's create our `Dockerfile` as follow below:
+
+```dockerfile
+FROM node
+WORKDIR /app
+COPY ./package*.json ./
+RUN npm install
+COPY ..
+CMD ["node", "app.js"]
+```
+1.4. Let's create our Docker image based on `Dockerfile`:
+
+```
+$ docker build -t
+```
+
+
+
+
+
+
+
+
+
+
 
 
